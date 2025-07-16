@@ -3,7 +3,6 @@ import { Stage, Layer, Line, Text, Transformer } from "react-konva";
 import "./CanvasBoard.css";
 import Toolbar from "./Toolbar";
 import io from "socket.io-client";
-import { io } from "socket.io-client";
 
 const socket = io("https://drew-l90n.onrender.com");  
 
