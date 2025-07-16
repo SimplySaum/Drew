@@ -4,7 +4,7 @@ import "./CanvasBoard.css";
 import Toolbar from "./Toolbar";
 import io from "socket.io-client";
 
-const socket = io("https://drew-l90n.onrender.com");  
+const socket = io("https://drew-msio.onrender.com");  
 
 function CanvasBoard() {
   const stageRef = useRef();
